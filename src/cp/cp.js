@@ -18,4 +18,4 @@ const spawnChildProcess = async (args) => {
     });
 };
 
-spawnChildProcess(process.argv.slice(2));
+spawnChildProcess(['test', 'test2', 'test3']);
